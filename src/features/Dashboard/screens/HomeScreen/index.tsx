@@ -6,9 +6,6 @@ import {useTheme} from '../../../../theme';
 import {HeaderComponent} from '../../../../components';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
 
-
-
-
 const HomeScreen = () => {
   const {theme} = useTheme();
   const styles = getStyles(theme);
