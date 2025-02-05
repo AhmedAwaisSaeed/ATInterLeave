@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-ATInterLeave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ATInterLeave.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		167BC2BB1CCA4056B951CB99 /* CoText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79A4D92A9D2141E2A7F7E3B8 /* CoText-Bold.otf */; };
+		29897BDA14F7454C91DDF745 /* CoText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13BC796C35594B599AF95A48 /* CoText-Light.otf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		7DA3B5B710D90722E5236C42 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F2D50AC84153428586F23FD7 /* CoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +22,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ATInterLeave/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ATInterLeave/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ATInterLeave/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13BC796C35594B599AF95A48 /* CoText-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Light.otf"; path = "../src/assets/fonts/CoText-Light.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ATInterLeave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATInterLeave.debug.xcconfig"; path = "Target Support Files/Pods-ATInterLeave/Pods-ATInterLeave.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Regular.otf"; path = "../src/assets/fonts/CoText-Regular.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ATInterLeave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATInterLeave.release.xcconfig"; path = "Target Support Files/Pods-ATInterLeave/Pods-ATInterLeave.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ATInterLeave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATInterLeave.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ATInterLeave/AppDelegate.swift; sourceTree = "<group>"; };
+		79A4D92A9D2141E2A7F7E3B8 /* CoText-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Bold.otf"; path = "../src/assets/fonts/CoText-Bold.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ATInterLeave/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -75,6 +81,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F414CD1A56A6431F9DAE41B0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +103,17 @@
 				5709B34CF0A7D63546082F79 /* Pods-ATInterLeave.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F414CD1A56A6431F9DAE41B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79A4D92A9D2141E2A7F7E3B8 /* CoText-Bold.otf */,
+				13BC796C35594B599AF95A48 /* CoText-Light.otf */,
+				3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +179,9 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7DA3B5B710D90722E5236C42 /* PrivacyInfo.xcprivacy in Resources */,
+				167BC2BB1CCA4056B951CB99 /* CoText-Bold.otf in Resources */,
+				29897BDA14F7454C91DDF745 /* CoText-Light.otf in Resources */,
+				F2D50AC84153428586F23FD7 /* CoText-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
