@@ -14,6 +14,7 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		7DA3B5B710D90722E5236C42 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		EDC4892F2D544CEC00B68400 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4892E2D544CE700B68400 /* dummy.swift */; };
 		F2D50AC84153428586F23FD7 /* CoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */; };
 /* End PBXBuildFile section */
 
@@ -22,15 +23,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ATInterLeave/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ATInterLeave/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ATInterLeave/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		13BC796C35594B599AF95A48 /* CoText-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Light.otf"; path = "../src/assets/fonts/CoText-Light.otf"; sourceTree = "<group>"; };
+		13BC796C35594B599AF95A48 /* CoText-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Light.otf"; path = "../src/assets/fonts/CoText-Light.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ATInterLeave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATInterLeave.debug.xcconfig"; path = "Target Support Files/Pods-ATInterLeave/Pods-ATInterLeave.debug.xcconfig"; sourceTree = "<group>"; };
-		3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Regular.otf"; path = "../src/assets/fonts/CoText-Regular.otf"; sourceTree = "<group>"; };
+		3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Regular.otf"; path = "../src/assets/fonts/CoText-Regular.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ATInterLeave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATInterLeave.release.xcconfig"; path = "Target Support Files/Pods-ATInterLeave/Pods-ATInterLeave.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ATInterLeave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATInterLeave.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ATInterLeave/AppDelegate.swift; sourceTree = "<group>"; };
-		79A4D92A9D2141E2A7F7E3B8 /* CoText-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Bold.otf"; path = "../src/assets/fonts/CoText-Bold.otf"; sourceTree = "<group>"; };
+		79A4D92A9D2141E2A7F7E3B8 /* CoText-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CoText-Bold.otf"; path = "../src/assets/fonts/CoText-Bold.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ATInterLeave/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDC4892E2D544CE700B68400 /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		13B07FAE1A68108700A75B9A /* ATInterLeave */ = {
 			isa = PBXGroup;
 			children = (
+				EDC4892E2D544CE700B68400 /* dummy.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -113,7 +116,6 @@
 				3B7AD062E8A94DDBA3A4250E /* CoText-Regular.otf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC4892F2D544CEC00B68400 /* dummy.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

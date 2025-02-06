@@ -1,0 +1,1 @@
+export const exampleAudio = require('../audios/example_audio.mp3')
