@@ -1276,6 +1276,9 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-track-player (4.1.1):
+    - React-Core
+    - SwiftAudioEx (= 1.1.0)
   - react-native-vector-icons (11.0.0):
     - DoubleConversion
     - glog
@@ -1653,6 +1656,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - SocketRocket (0.7.1)
+  - SwiftAudioEx (1.1.0)
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1695,6 +1699,7 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-track-player (from `../node_modules/react-native-track-player`)
   - "react-native-vector-icons (from `../node_modules/@react-native-vector-icons/common`)"
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -1732,6 +1737,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SocketRocket
+    - SwiftAudioEx
 
 EXTERNAL SOURCES:
   boost:
@@ -1809,6 +1815,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-track-player:
+    :path: "../node_modules/react-native-track-player"
   react-native-vector-icons:
     :path: "../node_modules/@react-native-vector-icons/common"
   React-nativeconfig:
@@ -1914,6 +1922,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 99bd566147aaa78e872568be53ebca8a4449ddae
   React-microtasksnativemodule: 51e7813abf875408a0f367e473a65bbab6aa8481
   react-native-safe-area-context: 7e513d737b0b5c1d10bbe0e5fcc9f925a7be144c
+  react-native-track-player: 6dc2e2633265704b8ab6d8124b80239d4ed1f911
   react-native-vector-icons: 9eedc6496978bfb5d5fbb62f4ab55878615f29e3
   React-nativeconfig: cd0fbb40987a9658c24dab5812c14e5522a64929
   React-NativeModulesApple: 4a9c304aa4fb086af32e8758ba892386d895b4d3
@@ -1947,8 +1956,9 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: a025c661a88f7db9d59d451d495decb375bb1b53
   RNScreens: 5a1573ceb1a13b2d0663cbfb42cb4aa8803554eb
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
+  SwiftAudioEx: f6aa653770f3a0d3851edaf8d834a30aee4a7646
   Yoga: 78d74e245ed67bb94275a1316cdc170b9b7fe884
 
 PODFILE CHECKSUM: 19a45c6e7c00cc4de1b769e53ea97d52a782f976
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.15.2

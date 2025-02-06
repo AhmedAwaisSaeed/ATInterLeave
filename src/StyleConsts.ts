@@ -48,6 +48,7 @@ interface StylesTypes {
   };
   spacing: {
     normal: number;
+    xsmall: number;
   };
 }
 export const StyleConsts: StylesTypes = {
@@ -100,5 +101,6 @@ export const StyleConsts: StylesTypes = {
   },
   spacing: {
     normal: 16,
+    xsmall:14,
   },
 };
